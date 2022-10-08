@@ -12,6 +12,7 @@ git branch -d <BRANCH_NAME>
 
 #### delete remote branch
 git push origin --delete <BRANCH_NAME>
+* this has to make sure that the delete branch is not default one
 
 #### solve the error of "refusing to merge unrelated histories"
 git pull origin master --allow-unrelated-histories
